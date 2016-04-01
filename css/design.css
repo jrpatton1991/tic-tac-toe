@@ -1,0 +1,25 @@
+#table{
+  border-collapse: collapse;
+  border: 5px solid black;
+  margin: 250px auto;
+  width: 30%;
+  text-align: center;
+}
+
+#row-1 td{
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  padding: 20px;
+  background-color: red
+}
+#row-2 td{
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  padding: 20px;
+}
+#row-3 td{
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  padding: 20px;
+  background-color: blue;
+}
