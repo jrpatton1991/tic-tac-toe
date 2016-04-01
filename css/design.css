@@ -1,7 +1,14 @@
+
+body{
+  background-image: url("../images/france.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 #table{
   border-collapse: collapse;
   border: 5px solid black;
-  margin: 250px auto;
+  margin: 200px auto;
   width: 30%;
   text-align: center;
 }
