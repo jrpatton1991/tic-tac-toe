@@ -48,6 +48,8 @@ function resetBoard() {
 var boxes = [null, null, null, null, null, null, null, null, null]
 
 function checkForWinner(){
+
+  //check for 'x' winner
   if (boxes[0] ==='x' && boxes[1] === 'x' && boxes[2] === 'x' || boxes[0] === 'o' && boxes[1] === 'o' && boxes[2] === 'o'){
     console.log("Winner!");
     alert("winner is " + currentPlayer)
@@ -90,7 +92,7 @@ function checkForWinner(){
     alert("winner is " + currentPlayer);
     resetBoard();
 
-   }
+   } 
 
 }
 
