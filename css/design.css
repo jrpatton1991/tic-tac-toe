@@ -1,11 +1,3 @@
-
-body{
-  background-image: url("../images/france.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 #table{
   border-collapse: collapse;
   border: 5px solid black;
